@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Home className="h-8 w-8 text-secondary" />
-              <span className="font-montserrat font-bold text-xl">JPT Construction</span>
+              <span className="font-montserrat font-bold text-xl">JPT Construction Pvt. Ltd</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Transforming homes into timeless masterpieces with premium architecture and interior design solutions.
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-600 mt-8 pt-6 text-center">
           <p className="text-gray-300 text-sm">
-            © 2025 JPT Construction Pvt Ltd Marz to MTRR Home decor All rights reserved.
+            © 2025 JPT Construction Pvt. Ltd Pvt Ltd Marz to MTRR Home decor All rights reserved.
           </p>
         </div>
       </div>
