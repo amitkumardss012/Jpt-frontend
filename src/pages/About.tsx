@@ -24,7 +24,7 @@ const About: React.FC = () => {
   ];
 
   const milestones = [
-    { year: '2005', event: 'JPT Construction Founded', icon: Calendar },
+    { year: '2005', event: 'JPT Construction Pvt. Ltd. Founded', icon: Calendar },
     { year: '2010', event: 'First Major Award Won', icon: Trophy },
     { year: '2015', event: '100th Project Completed', icon: Users },
     { year: '2020', event: 'Sustainable Building Certification', icon: Award },
@@ -44,7 +44,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="font-montserrat font-bold text-5xl md:text-6xl mb-6">
-              About JPT Construction
+              About JPT Construction Pvt. Ltd
             </h1>
             <p className="font-open-sans text-xl leading-relaxed text-gray-300">
               Since 2005, we've been building dreams and transforming lives through exceptional construction, architecture, and design services. Our commitment to quality craftsmanship, innovation, and client satisfaction has made us a trusted name in premium residential construction and design.

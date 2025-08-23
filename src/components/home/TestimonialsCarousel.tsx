@@ -15,7 +15,7 @@ const TestimonialsCarousel: React.FC = () => {
       name: 'Ananya Sharma',
       image: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png',
       rating: 5,
-      text: 'JPT Construction transformed our 3BHK apartment into a luxurious and modern home. They understood our cultural preferences and blended them beautifully with contemporary design.'
+      text: 'JPT Construction Pvt. Ltd transformed our 3BHK apartment into a luxurious and modern home. They understood our cultural preferences and blended them beautifully with contemporary design.'
     },
     {
       id: 2,

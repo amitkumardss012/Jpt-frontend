@@ -31,7 +31,7 @@ const AboutPreview: React.FC = () => {
               Building Excellence Since 2005
             </h2>
             <p className="font-open-sans text-gray-600 text-lg leading-relaxed mb-8">
-              At JPT Construction, we believe that strong foundations create lasting legacies. Our team of expert builders, architects, and designers work closely with you to construct homes that reflect your vision and exceed your expectations. From ground-up construction to complete renovations and stunning interior designs, we bring your dreams to reality with uncompromising quality and craftsmanship.
+              At JPT Construction Pvt. Ltd, we believe that strong foundations create lasting legacies. Our team of expert builders, architects, and designers work closely with you to construct homes that reflect your vision and exceed your expectations. From ground-up construction to complete renovations and stunning interior designs, we bring your dreams to reality with uncompromising quality and craftsmanship.
             </p>
             
             {/* Stats */}

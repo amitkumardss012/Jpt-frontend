@@ -53,7 +53,7 @@ const WhyChooseUs: React.FC = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-4">
-            Why Choose JPT Construction?
+            Why Choose JPT Construction Pvt. Ltd?
           </h2>
           <p className="font-open-sans text-gray-300 text-lg max-w-2xl mx-auto">
             We combine innovation, craftsmanship, and dedication to deliver exceptional results that exceed expectations.
