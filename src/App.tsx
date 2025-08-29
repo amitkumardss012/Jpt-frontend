@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Login from "./pages/admin/Login";
 import ProtectedRoute from "./components/admin/ProtectedRoute";
 import AdminLayout from "./components/admin/AdminLayout";
+import PortfolioManager from "./pages/admin/PortfolioManager";
 
 // Lazy load pages
 const Home = lazy(() => import("./pages/Home"));
@@ -60,7 +61,8 @@ function App() {
             <Route element={<ProtectedRoute />}>
               <Route element={<AdminLayout />}>
                 <Route path="/admin/dashboard" element={<Dashboard />} />
-                <Route path="/admin/users" element={<Users />} />
+                <Route path="/admin/users" element={<Users />} />      
+                <Route path="/admin/portfolio" element={<PortfolioManager />} />      
               </Route>
             </Route>
           </Routes>

@@ -54,6 +54,19 @@ const AdminLayout = () => {
                 Enquiry
               </Link>
             </li>
+            <li>
+              <Link
+                to="/admin/portfolio"
+                className={`flex items-center px-3 sm:px-4 py-2 text-sm sm:text-base text-gray-700 hover:bg-primary hover:text-white ${
+                  location.pathname === '/admin/portfolio'
+                    ? 'bg-primary text-white font-semibold'
+                    : ''
+                }`}
+                onClick={() => setIsSidebarOpen(false)}
+              >
+                Portfolio
+              </Link>
+            </li>
           </ul>
         </nav>
         <div className="absolute bottom-0 w-full p-3 sm:p-4 border-t">
