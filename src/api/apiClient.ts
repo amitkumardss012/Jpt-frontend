@@ -9,7 +9,8 @@ import axios from "axios";
 //     withCredentials: true
 // })
 export const axiosInstance = axios.create({
-    baseURL: "https://jpt-phi.vercel.app/api/v1",
+    baseURL: "https://jpt-three.vercel.app/api/v1",
+    // baseURL: "http://localhost:4000/api/v1",
     headers: {
         "Content-Type": "application/json",
         "authorization" : `Bearer ${localStorage.getItem("loan_admin_token")}`
